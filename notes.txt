@@ -1,0 +1,35 @@
+mengunakan css tailwindcss
+1.npm install react-router-dom //buat root
+2. npm install -D tailwindcss@3
+3.buat file tailwind.config.js
+4.import ke dalam index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+5. mencari API di themoviedb.org
+6.login terlebih dahulu
+username: fahriS
+password:fahrisu
+7. flowbite.com *boostrap frondend&
+
+API Key: b80d59c33d6d57ed9c7e3713f91c188a
+Base URL: https://api.themoviedb.org/3
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Upcoming: 
+https://api.themoviedb.org/3/movie/upcoming?api_key=b80d59c33d6d57ed9c7e3713f91c188a
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=b80d59c33d6d57ed9c7e3713f91c188a&query={movie_name}
+
